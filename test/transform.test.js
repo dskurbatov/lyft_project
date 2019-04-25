@@ -6,6 +6,10 @@ describe('transform function', () => {
     assert.equal(transfrom('iamyourlyftdriver'), 'muydv')
   })
 
+  it('should return empty string if null is provided', () => {
+    assert.equal(transfrom(null), '')
+  })
+
   it('should return empty string if nothing is passed', () => {
     assert.equal(transfrom(), '')
   })
