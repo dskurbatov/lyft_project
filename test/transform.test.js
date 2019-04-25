@@ -25,4 +25,8 @@ describe('transform function', () => {
   it('should return empty string if empty string is provided', () => {
     assert.equal(transfrom(''), '')
   })
+
+  it('should return empty string if number is provided', () => {
+    assert.equal(transfrom(12345), '')
+  })
 })
