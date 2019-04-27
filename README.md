@@ -15,9 +15,9 @@ it will return:
 ## Installation
 
 ```sh
-git clone https://github.com/dskurbatov/lyft_project.git
-cd lyft_project
-npm install
+$ git clone https://github.com/dskurbatov/lyft_project.git
+$ cd lyft_project
+$ npm install
 ```
 
 ## Available Scripts
