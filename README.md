@@ -12,6 +12,13 @@ it will return:
 ```js
 {"return_string": "muydv"}
 ```
+## Installation
+
+```sh
+git clone https://github.com/dskurbatov/lyft_project.git
+cd lyft_project
+npm install
+```
 
 ## Available Scripts
 
